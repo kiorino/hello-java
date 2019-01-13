@@ -23,14 +23,14 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                    <finalName>test</finalName>
+                    <finalName>application</finalName>
                     <descriptorRefs>
                         <!-- 依存するリソースをすべてjarに同梱する -->
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>main.Main</mainClass>
+                            <mainClass>ngoto.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
